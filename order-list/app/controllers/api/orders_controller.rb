@@ -6,6 +6,10 @@ class Api::OrdersController < ApplicationController
 
   def index
     @orders = Order.all
+
+    # add pagination with kaminari
+    # add date filtering
+    # add sorting by date
   end
 
   def show
